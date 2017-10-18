@@ -8,6 +8,8 @@ import java.util.Date;
  * 作者 fanchengliang
  * 日期 2017/10/17
  * 项目 design-pattern
+ *
+ * Simple Factory Pattern
  */
 public class SimpleFactory {
     public static void main(String[] args) {
