@@ -19,9 +19,5 @@ public class TextDataExport extends AbstractDbDataExport {
         return "TEXT";
     }
 
-    public static void main(String[] args) {
-        TextDataExport textDataExport = new TextDataExport();
-        textDataExport.setSource(new MysqlDataSource());
-        textDataExport.export("root");
-    }
+    
 }

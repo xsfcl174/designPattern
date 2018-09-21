@@ -1,4 +1,4 @@
-package com.fancl.adapter;
+package com.fancl.adapter.impl;
 
 /**
  * 作者 fanchengliang

@@ -1,4 +1,4 @@
-package com.fancl.adapter;
+package com.fancl.adapter.impl;
 
 /**
  * 作者 fanchengliang
@@ -10,6 +10,7 @@ package com.fancl.adapter;
 public class ClassAdapter extends Adaptee implements Target{
     @Override
     public void doAction() {
+        System.out.printf(this.getClass()+":");
         outPut();
     }
 }
