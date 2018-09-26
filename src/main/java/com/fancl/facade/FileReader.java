@@ -10,6 +10,7 @@ package com.fancl.facade;
 public class FileReader {
     public byte[] readFile(String path) {
         //模拟读取文件
+        System.out.println("读取文件:" + path);
         return path.getBytes();
     }
 }

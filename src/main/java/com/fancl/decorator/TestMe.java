@@ -5,7 +5,7 @@ package com.fancl.decorator;
  * 日期 2017/10/30
  * 项目 design-pattern
  */
-public class DecoratorTest {
+public class TestMe {
 
     public static void main(String[] args) {
         //实现多重嵌套的加密

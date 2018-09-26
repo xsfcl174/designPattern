@@ -8,7 +8,7 @@ package com.fancl.facade;
  * @since 1.6
  */
 public class FileWriter {
-    public void write(String path,byte[] content){
-        System.out.println("写入文件");
+    public void write(String path, byte[] content) {
+        System.out.println("写入文件:" + path);
     }
 }

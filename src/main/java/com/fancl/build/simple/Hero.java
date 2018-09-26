@@ -72,7 +72,7 @@ public final class Hero {
 
   /**
    * 
-   * The builder class.
+   * The Builder class.
    * 
    */
   public static class Builder {

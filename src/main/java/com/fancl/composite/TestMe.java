@@ -6,9 +6,14 @@ package com.fancl.composite;
  * 项目 design-pattern
  * 组合模式---树形结构处理
  */
-public class CompositePatternTest {
+public class TestMe {
 
     public static void main(String[] args) {
+        Company company1 = createCompany();
+        company1.receiveNotice("test hello message");
+    }
+
+    private static Company createCompany() {
         Department department1 = new Department("dep1");
         Department department2 = new Department("dep2");
         Department department3 = new Department("dep3");
@@ -28,6 +33,6 @@ public class CompositePatternTest {
         company1.add(department5);
         company1.add(company2);
         company1.add(company3);
-        company1.receiveNotice("test hello message");
+        return company1;
     }
 }
